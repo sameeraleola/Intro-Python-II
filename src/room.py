@@ -26,4 +26,5 @@ class Room:
         else:
             self.w_to = w_to
         
-        
+    def __str__(self):
+        return 'This is the {self.name}. {self.description}'.format(self=self)
